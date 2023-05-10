@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>RocketShip.com: Warehose Management</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <header class="site-navbar py-3" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-11 col-xl-2">
+            <img src="images/logofin.png" height="50px" alt="Logo">
+            <h1 class="mb-0 font-serif"><a href="index.html" class="text-white h2 mb-0"><b>RocketShip</b></a></h1>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="has-children">
+                  <a href="services.html">Services</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Air Freight</a></li>
+                    <li><a href="#">Ocean Freight</a></li>
+                    <li><a href="#">Ground Shipping</a></li>
+                    <li><a href="#">Warehousing</a></li>
+                    <li><a href="#">Storage</a></li>
+                  </ul>
+                </li>
+
+
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#"
+              class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+
+      </div>
+  </div>
+
+  </header>
+
+
+
+  <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade"
+    data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row align-items-center justify-content-center text-center">
+
+        <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+
+
+          <h1 class="text-white font-weight-light mb-5 text-uppercase font-weight-bold">Worldwide Shipping Services</h1>
+          <p><a href="#" class="btn btn-primary py-3 px-5 text-white">Get Started!</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row align-items-center no-gutters align-items-stretch overlap-section">
+      <div class="col-md-4">
+        <div class="feature-1 pricing h-100 text-left">
+          <div class="icon">
+            <span class="icon-dollar"></span>
+          </div>
+          <h2 class="my-4 heading">Grow your ecommerce business</h2>
+          <ul>
+            <li>
+              <p>Reduce Shipping Cost </p>
+            </li>
+            <li>
+              <p>Increase Reach</p>
+            </li>
+            <li>
+              <p>Lower return costs</p>
+            </li>
+            <li>
+              <p>Maximum security coverage</p>
+            </li>
+            <li>
+              <p>Deliver to 24000 serviceable pin codes in India </p>
+            </li>
+            <li>
+              <p>Deliver to 200* countries</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="free-quote bg-dark h-100">
+          <h2 class="my-4 heading  text-center">Customer Log in</h2>
+          <form method="post">
+            <div class="form-group">
+              <label for="fq_name">Username</label>
+              <input type="text" class="form-control btn-block" id="fq_name" name="fq_name"
+                placeholder="Enter Username">
+            </div>
+            <div class="form-group mb-4">
+              <label for="fq_email">Password</label>
+              <input type="text" class="form-control btn-block" id="fq_email" name="fq_email"
+                placeholder="Enter your Password">
+            </div>
+            <div class="form-group">
+              <div class="captcha">
+
+                <label for="captcha-input">Enter Captcha</label>
+
+                <div class="preview"></div>
+                <div class="captcha-form">
+
+                  <input type="text" id="captcha-form" placeholder="Enter captcha text">
+
+                  <button class="captcha-refresh">
+                    <i class="fa fa-refresh"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fq_name">Your Captcha</label>
+              <input type="text" class="form-control btn-block" id="fq_name" name="fq_name" placeholder="4103fE">
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary text-white py-2 px-4 btn-block" value="Log In">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-3 pricing h-100 text-left">
+          <div class="icon">
+            <span class="icon-phone"></span>
+          </div>
+          <h2 class="my-4 heading">24/7 Support</h2>
+          <h4 class="my-4 heading">Feel Free to call us on </h4>
+          <ul>
+            <li>
+              <p>1800 120 8888</p>
+            </li>
+            <li>
+              <p>+91 7004992261</p>
+            </li>
+          </ul>
+
+          <h4 class="my- heading">Write us on</h4>
+          <p>rocketship.support@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 text-center border-primary">
+          <h2 class="mb-0 text-primary">Why choose RocketShip?</h2>
+          <p class="color-black-opacity-5">#1 In Shiping</p>
+        </div>
+      </div>
+      <div class="row align-items-stretch">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><span>
+                <img decoding="async" class="entered lazyloaded"
+                  src="https://www.shiprocket.in/wp-content/uploads/2018/06/shipping_quality.png" alt="" width="60"
+                  height="60" data-lazy-src="https://www.shiprocket.in/wp-content/uploads/2018/06/shipping_quality.png"
+                  data-ll-status="loaded">
+              </span></div>
+            <div>
+              <h3>Improve shipping quality
+              </h3>
+              <ul>
+                <li>
+                  <p>Reap the benefits of Courier Recommendation Engine</p>
+                </li>
+                <li>
+                  <P>Reduce undelivery with NDR and RTO dashboards</P>
+                </li>
+                <li>
+                  <p>Process bulk orders in a few clicks</p>
+                </li>
+              </ul>
+              <p class="mb-0"><a
+                  href="https://www.hausmanmarketingletter.com/5-effective-ways-to-improve-your-logistics-function/">Know
+                  More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4">
+              <span>
+                <img decoding="async" src="https://www.shiprocket.in/wp-content/uploads/2018/06/superior_experience.png"
+                  alt="" width="60" height="60"
+                  data-lazy-src="https://www.shiprocket.in/wp-content/uploads/2018/06/superior_experience.png"
+                  data-ll-status="loaded" class="entered lazyloaded">
+              </span>
+            </div>
+            <div>
+              <h3>Superior experience for your customers</h3>
+              <ul>
+                <Li>
+                  <p>
+                    Effective order tracking via SMS and Email notifications
+                  </p>
+                </Li>
+                <li>
+                  <p>Easy pickup for return order requests</p>
+                </li>
+                <li>
+                  <p>White labeled shipment tracking page
+                  </p>
+                </li>
+              </ul>
+              <p class="mb-0"><a href="https://www.hotjar.com/customer-satisfaction/techniques/">Know More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><span>
+                <img decoding="async" src="https://www.shiprocket.in/wp-content/uploads/2018/06/automated_shipping.png"
+                  alt="" width="60" height="60"
+                  data-lazy-src="https://www.shiprocket.in/wp-content/uploads/2018/06/automated_shipping.png"
+                  data-ll-status="loaded" class="entered lazyloaded">
+              </span></div>
+            <div>
+              <h3>Automated shipping & Reduce efforts
+              </h3>
+              <ul>
+                <li>
+                  <p>Integrated to all major channels like Amazon,flipkart,Myntra etc.</p>
+                </li>
+                <li>
+                  <p>Pickup from multiple locations</p>
+                </li>
+                <li>
+                  <p>Manage finances with COD and Billing </p>
+                </li>
+              </ul>
+              <p class="mb-0"><a
+                  href="https://www.shipbob.com/blog/automated-shipping/#:~:text=Automated%20shipping%20is%20the%20automation,to%20be%20delivered%20to%20customers.">Know
+                  More</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="site-section block-13">
+    <!-- <div class="container"></div> -->
+
+
+    <div class="owl-carousel nonloop-block-13">
+      <div>
+        <a href="#" class="unit-1 text-center">
+          <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+          <div class="unit-1-text">
+            <h3 class="unit-1-heading">Storage</h3>
+            <p class="px-5"> provides space for the storage of goods or materials, or services related to the storage of
+              goods
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div>
+        <a href="#" class="unit-1 text-center">
+          <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+          <div class="unit-1-text">
+            <h3 class="unit-1-heading">Air Transports</h3>
+            <p class="px-5">
+              Air transport services are the most valuable when it comes to moving express shipments around the globe
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div>
+        <a href="#" class="unit-1 text-center">
+          <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+          <div class="unit-1-text">
+            <h3 class="unit-1-heading">Cargo Transports</h3>
+            <p class="px-5">We facilitate road, rail, air and sea transportation across a vast network of towns, cities
+              and countries spanning the globe.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div>
+        <a href="#" class="unit-1 text-center">
+          <img src="images/img_4.jpg" alt="Image" class="img-fluid">
+          <div class="unit-1-text">
+            <h3 class="unit-1-heading">Cargo Ship</h3>
+            <p class="px-5">We have abundant no of cargo ships for ocean freight
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div>
+        <a href="#" class="unit-1 text-center">
+          <img src="images/img_5.jpg" alt="Image" class="img-fluid">
+          <div class="unit-1-text">
+            <h3 class="unit-1-heading">Ware Housing</h3>
+            <p class="px-5">Warehousing is the act of storing goods that will be sold or distributed later.
+            </p>
+          </div>
+        </a>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+  <div class="site-section bg-light">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 text-center border-primary">
+          <h2 class="font-weight-light text-primary">How It Works?</h2>
+          <p class="color-black-opacity-5">The Rocketship platform is hassle free and simple to use!</p>
+        </div>
+      </div>
+      <div class="row align-items-stretch">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4"><span>
+                <img width="216" height="149"
+                  src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/what_to_ship.png" alt=""
+                  data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/what_to_ship.png"
+                  data-ll-status="loaded" class="entered lazyloaded">
+              </span></div>
+            <div>
+              <span>
+
+                <h3>1.Choose your shipment</h3>
+              </span>
+              <h3>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4">
+              <span>
+                <img width="216" height="149"
+                  src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/select_courier.png" alt=""
+                  data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/select_courier.png"
+                  data-ll-status="loaded" class="entered lazyloaded">
+              </span>
+            </div>
+            <div>
+              <h3>2.Select courier partner</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+          <div class="unit-4 d-flex">
+            <div class="unit-4-icon mr-4">
+              <span>
+                <img width="216" height="149"
+                  src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/pack_shipment.png" alt=""
+                  data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/pack_shipment.png"
+                  data-ll-status="loaded" class="entered lazyloaded">
+              </span>
+            </div>
+            <div>
+              <h3>3.Pack and Ship</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-60 col-lg-40 mb-40 mb-lg-40 text-center">
+          <div class="unit-10 d-flex text-center">
+            <div class="unit-4-icon mr-4 text-center">
+              <span>
+                <img width="216" height="149"
+                  src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/track.png" alt=""
+                  data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/track.png"
+                  data-ll-status="loaded" class="entered lazyloaded">
+              </span>
+            </div>
+            <div>
+              <h3><b>Track</b></h3>
+              <p>Track the order and keep your customers informed via SMS and email notifications</p>
+              <p>*customers can track order after shipment of product by entering AWB No. or Order ID</p>
+              <p><a href="https://alltrack.org/couriers-tracking">Track your order here</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="site-blocks-cover overlay inner-page-cover"
+    style="background-image: url(images/hero_bg_2.jpg); background-attachment: fixed;">
+    <div class="container">
+      <div class="row align-items-center justify-content-center text-center">
+
+        <div class="col-md-7" data-aos="fade-up" data-aos-delay="400">
+          <a href="https://www.youtube.com/results?search_query=chipping+chain+video"
+            class="play-single-big mb-4 d-inline-block popup-vimeo"><span class="icon-play"></span></a>
+          <h2 class="text-white font-weight-light mb-5 h1">View Our Services By Watching This Short Video</h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-section border-bottom">
+    <div class="container">
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 text-center border-primary">
+          <h2 class="font-weight-light text-primary">Testimonials</h2>
+        </div>
+      </div>
+
+      <div class="slide-one-item home-slider owl-carousel">
+        <div>
+          <div class="testimonial">
+            <figure class="mb-4">
+
+              <h3>Kapil dev Tyagi</h3>
+            </figure>
+            <blockquote>
+              <p>&ldquo;Shiprocket has made shipping easy for me. It is reliable and cost-effective shipping
+                solution.&rdquo;</p>
+            </blockquote>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial">
+            <figure class="mb-4">
+              <h3>Jitendra Mohan</h3>
+            </figure>
+            <blockquote>
+              <p>&ldquo;Shiprocket provides timely COD remittance & a hassle-free pickup facility.&rdquo;</p>
+            </blockquote>
+          </div>
+        </div>
+
+        <div>
+          <div class="testimonial">
+            <figure class="mb-4">
+
+              <h3>Vimal Kumar Mishra</h3>
+            </figure>
+            <blockquote>
+              <p>&ldquo;Create, track and ship your orders on the move anytime and anywhere&rdquo;</p>
+            </blockquote>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="site-section">
+    <div class="container">
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-7 text-center border-primary">
+          <h2 class="font-weight-light text-primary">Brands That Trust Us</h2>
+          <p class="color-black-opacity-5">Thousands of brands have simplified their shipping using Rocketship</p>
+        </div>
+      </div>
+      <div class="row mb-4 align-items-stretch">
+        <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
+          <div class="h-entry text-center">
+            <img decoding="async" width="63" height="42"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/akash-institute.png"
+              alt="akash institute" class="wp-image-13547 entered lazyloaded"
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/akash-institute.png"
+              data-ll-status="loaded">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
+          <div class="h-entry text-center">
+            <img width="107" height="42" decoding="async"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/beato.png" alt="beato"
+              class="wp-image-13547 entered lazyloaded"
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/beato.png"
+              data-ll-status="loaded">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
+          <div class="h-entry text-center">
+            <img width="145" height="30" decoding="async"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/gillette.png" alt="gillette"
+              class="wp-image-13547 entered lazyloaded"
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/gillette.png"
+              data-ll-status="loaded">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
+          <div class="h-entry text-center">
+            <img width="136" height="19" decoding="async"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/mamaearth.png" alt="beato"
+              class="wp-image-13547 entered lazyloaded"
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/mamaearth.png"
+              data-ll-status="loaded">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
+          <div class="h-entry text-center">
+            <img width="123" height="42" decoding="async"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/mcaffene.png" alt="mcaffene"
+              class="wp-image-13547 entered lazyloaded"
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/mcaffene.png"
+              data-ll-status="loaded">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
+          <div class="h-entry text-center">
+            <img width="145" height="33" decoding="async"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/cureveda.png" alt="cureveda"
+              class="wp-image-13547 entered lazyloaded"
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/cureveda.png"
+              data-ll-status="loaded">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
+          <div class="h-entry text-center">
+            <img width="149" height="29" decoding="async"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/dr.png" alt="dr"
+              class="wp-image-13547 entered lazyloaded"
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/dr.png"
+              data-ll-status="loaded">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
+          <div class="h-entry text-center">
+            <img width="255" height="31" decoding="async"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/nappaDori.png" alt="nappaDori"
+              class="wp-image-13547 entered lazyloaded"
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/nappaDori.png"
+              data-ll-status="loaded">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
+          <div class="h-entry text-center">
+            <img width="75" height="41" decoding="async"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/body-care.png" alt="body-care"
+              class="wp-image-13547 entered lazyloaded"
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/body-care.png"
+              data-ll-status="loaded">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
+          <div class="h-entry text-center">
+            <img width="113" height="113" decoding="async"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/the-beer-cafe.png"
+              alt="the-beer-cafe" class="wp-image-13547 entered lazyloaded"
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2019/06/the-beer-cafe.png"
+              data-ll-status="loaded">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="site-section border-top">
+    <div class="container">
+
+      <div class="unit-4 d-flex">
+        <div class="unit-4-icon mr-4">
+          <span>
+            <img width="590" height="356"
+              src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/download_app.png" alt=""
+              data-lazy-src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/download_app.png"
+              data-ll-status="loaded" class="entered lazyloaded">
+          </span>
+        </div>
+        <div class="text-center">
+          <h3 class=""><b>Get RocketShip app now</b></h3>
+          <p>Create, track and ship your orders on the move anytime and anywhere!</p>
+
+          <h4><b>Available on</b></h4>
+          <img decoding="async" src="https://www.shiprocket.in/wp-content/uploads/2019/01/playstore.png"
+            alt="Shiprocket App - Google Play" width="158" height="47"
+            data-lazy-src="https://www.shiprocket.in/wp-content/uploads/2019/01/playstore.png" data-ll-status="loaded"
+            class="entered lazyloaded">
+
+          <img decoding="async" src="https://www.shiprocket.in/wp-content/uploads/2019/01/appstore.png"
+            alt="Shiprocket App" width="158" height="47"
+            data-lazy-src="https://www.shiprocket.in/wp-content/uploads/2019/01/appstore.png" data-ll-status="loaded"
+            class="entered lazyloaded">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-3">
+              <h2 class="footer-heading mb-4">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h2 class="footer-heading mb-4">Products</h2>
+              <ul class="list-unstyled">
+                <li><a href="#">Luxury Products</a></li>
+                <li><a href="#">Cosmetic Products</a></li>
+                <li><a href="#">Elctronics and</a></li>
+                <li><a href="#">Many more</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h2 class="footer-heading mb-4">Features</h2>
+              <ul class="list-unstyled">
+                <li><a href="#">Fast</a></li>
+                <li><a href="#">Secure</a></li>
+                <li><a href="#">COD Option</a></li>
+                <li><a href="#">Return Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h2 class="footer-heading mb-4">Follow Us</h2>
+              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+          <form action="#" method="post">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control border-secondary text-white bg-transparent"
+                placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row pt-5 mt-5 text-center">
+        <div class="col-md-12">
+          <div class="border-top pt-5">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made
+              with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Team
+                RAG</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
